@@ -7,5 +7,3 @@ Linux systems provide the strace utility, and Solaris and Mac OS X systems use t
 As Windows systems do not provide such features, you will have to trace through the Windows version of this program using a debugger.
 
 
-
-

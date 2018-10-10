@@ -1,3 +1,5 @@
+// 資工碩一 107598021 洪俊銘
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
