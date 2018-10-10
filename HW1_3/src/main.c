@@ -1,3 +1,6 @@
+// 資工碩一 107598021 洪俊銘
+// Purpose : ordinary pipes
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
