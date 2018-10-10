@@ -1,4 +1,5 @@
 // 資工碩一 107598021 洪俊銘
+//Purpose : Create a process identifiers(pid)
 
 #include <stdlib.h>
 #include <stdio.h>
