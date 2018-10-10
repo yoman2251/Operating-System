@@ -1,3 +1,5 @@
+// 資工碩一 107598021 洪俊銘
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
