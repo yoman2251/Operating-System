@@ -1,7 +1,15 @@
-.PHONY: clean
+.PHONY: clean dirs
 
-HW1_1: src/main.c
-	gcc src/main.c -o bin/hw1_1.o
-	
+BIN = bin
+SRC = src
+
+all: dirs $(BIN)/hw1_1.o
+
+$(BIN)/hw1_1.o: $(SRC)/main.c
+	gcc $(SRC)/main.c -o $(BIN)/hw1_1.o
+
+dirs:
+	mkdir -p $(SRC) $(BIN)
+
 clean:
-	rm bin/hw1_1.o
+	rm -rf $(BIN)
