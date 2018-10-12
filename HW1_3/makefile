@@ -1,7 +1,12 @@
-.PHONY: clean
+.PHONY: clean dirs
 
-HW1_3: src/main.c
-	gcc src/main.c -o filecopy
+SRC = src
+
+HW1_3: $(SRC)/main.c
+	gcc $(SRC)/main.c -o filecopy
+
+dirs:
+	mkdir -p $(SRC)
 
 clean:
 	rm filecopy
