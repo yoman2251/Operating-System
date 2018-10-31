@@ -3,10 +3,10 @@
 BIN = bin
 SRC = src
 
-all: dirs $(BIN)/hw2_1.o
+all: dirs $(BIN)/pthread
 
-$(BIN)/hw2_1.o: $(SRC)/main.c
-	gcc $(SRC)/main.c -lpthread -o $(BIN)/hw2_1
+$(BIN)/pthread: $(SRC)/main.c
+	gcc $(SRC)/main.c -lpthread -o $(BIN)/pthread
 
 dirs:
 	mkdir -p $(SRC) $(BIN)
