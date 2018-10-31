@@ -11,4 +11,4 @@ For example, if we invoke the program as follows:<br>
 the file input.txt will be written to the pipe.<br>
 The child process will read the contents of this file and write it to the destination file copy.txt.<br>
 You may write this program using either UNIX or Windows pipes.
-![](https://github.com/yoman2251/Operating-System/tree/master/HW1_3/pipi.jpg)
+![](https://github.com/yoman2251/Operating-System/row/master/HW1_3/pipi.jpg)
