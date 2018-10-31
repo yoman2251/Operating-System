@@ -1,7 +1,7 @@
 Programming Problems<br>
 ====
-##Chap.2
-###2.15*:
+##Chap.2<br>
+###2.15*:<br>
 In Sec.2.3, we described a program that copies the contents of one file to a destination file.<br>
 This program works by first prompting the user for the name of the source and destination files.<br>
 Write this program using either the Windows or POSIX API.<br>
