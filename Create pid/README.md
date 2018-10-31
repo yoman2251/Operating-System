@@ -14,6 +14,6 @@ Use the following constants to identify the range of possible pid values:<br>
 You may use any data structure of your choice to represent the availability of process identifiers.<br>
 One strategy is to adopt what Linux has done and use a bitmap in which a value of 0 at position i indicates that a process id of value i is available and a value of 1 indicates that the process id is currently in use.<br>
 Implement the following API for obtaining and releasing a pid:<br>
-* int allocate_map(void): Creates and initializes a daat structure for representing pids; returns -1 if unsuccessful, 1 if successful
+* int allocate_map(void): Creates and initializes a daat structure for representing pids; returns -1 if unsuccessful, 1 if successful 
 * int allocate_pid(void): Allocates and returns a pid; returns -1 if unable to allocate a pid (all pids are in use)
 * Void release_pid(int pid): Releases a pid
