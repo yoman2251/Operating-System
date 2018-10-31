@@ -1,6 +1,6 @@
 // 資工碩一 107598021 洪俊銘
 // Problem 4.17
-// Program to compute Pi using Monte Carlo method
+// Program to compute Pi using Monte Carlo method (pthread)
 
 #include <stdio.h>
 #include <string.h>
