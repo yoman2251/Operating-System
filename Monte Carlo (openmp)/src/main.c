@@ -20,8 +20,9 @@ int main()
         scanf("%d", &amtWanted);  	
 	}while (amtWanted <= 0);
   
-    #pragma omp parallel if(OMP>10) num_threads(10)
+    #pragma omp parallel if(OMP>1) num_threads(7)
 	{
+
         int i = 0;
 		for (i = 0; i < amtWanted; i++)
         {	
@@ -36,7 +37,8 @@ int main()
 	}
     
     double pi = 4.0 * totalPts / amtWanted;
-    printf("The approximate value of pi for the desired amount of points (%d) is: %f \n", amtWanted, pi);
+    printf("The approximate value of pi for the desired amount of points (%d) is: %f \n", amtWanted, pi); 
+    // printf("%d", totalPts);
     printf("\n");  
     return 0;
 }
