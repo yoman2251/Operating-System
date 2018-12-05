@@ -38,7 +38,6 @@ int main()
     
     double pi = 4.0 * totalPts / amtWanted;
     printf("The approximate value of pi for the desired amount of points (%d) is: %f \n", amtWanted, pi); 
-    // printf("%d", totalPts);
     printf("\n");  
     return 0;
 }
